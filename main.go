@@ -1,13 +1,9 @@
 package main
 
-import (
-	"fmt"
-
-	something "github.com/bellDev-code/leango/someting"
-)
+import "fmt"
 
 func main() {
-	fmt.Println("Hello world!!")
-	something.SayHello()
-	something.SayBye()
+	var name string = "jongho"
+	name = "yongdo"
+	fmt.Println(name)
 }
