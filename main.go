@@ -2,8 +2,10 @@ package main
 
 import "fmt"
 
+func reapeatMe(words ...string) {
+	fmt.Println(words)
+}
+
 func main() {
-	var name string = "jongho"
-	name = "yongdo"
-	fmt.Println(name)
+	reapeatMe("jong", "ho", "young", "do")
 }
