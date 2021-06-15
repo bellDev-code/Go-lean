@@ -4,8 +4,9 @@ import "fmt"
 
 
 func main() {
-	a := 2
-	b := &a
-	*b = 20
-	fmt.Println(a)
+	array := map[string]string{"name":"lee", "age":"27"}
+	for key, value := range array {
+		fmt.Println(key, value)
+	}
+	
 }
