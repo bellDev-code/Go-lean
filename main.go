@@ -1,18 +1,10 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/bellDev-code/leango/accounts"
-)
+import "fmt"
 
 func main() {
-	account := accounts.NewAccount("jongho")
-	account.Deposit(10)
-	fmt.Println(account.Balance())
-	err := account.Withdraw(20)
-	if err != nil {
-		fmt.Println(err)
-	}
-	fmt.Println(account.Balance())
+	// const name string = "jongho"
+	// name = "Lynn"
+	name := "jongho" // 축약형
+	fmt.Println(name)
 }
